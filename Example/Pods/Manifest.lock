@@ -1,0 +1,16 @@
+PODS:
+  - KYEWebViewController (0.2.0)
+
+DEPENDENCIES:
+  - KYEWebViewController (from `../`)
+
+EXTERNAL SOURCES:
+  KYEWebViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KYEWebViewController: 1827838f0f3c1ab8444ee6a1603cb08770cc3490
+
+PODFILE CHECKSUM: 9b2e0034ac057b6911f78e3e3cc8d173e4fc282f
+
+COCOAPODS: 1.3.1

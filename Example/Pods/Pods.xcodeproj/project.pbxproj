@@ -1,0 +1,1058 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D09228E9F4768818A4B3B60BF0C057 /* KYEWebOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8360F10A95E517306A41F6FD5189BD /* KYEWebOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		062C7FCB3761EA54B76D54B888C9D63A /* KYEWebViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5114CF7869D94C94720EE13E30D41080 /* KYEWebViewController-dummy.m */; };
+		0817EBED9DE58087B796F2CA189F3196 /* KYEWebUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D53A5B0CF9344510659A30C77DBC837 /* KYEWebUtils.m */; };
+		0A30CAF347611768B3017CD20AF1BF7B /* KYEWebRequestHandleManagerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DA9FA189D85807C3754264462A5BAD /* KYEWebRequestHandleManagerImpl.m */; };
+		0E8001B0829E695943B04FEA9F214A48 /* KYEWebCacheHandlerImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = A7046826AA7CBCF5AAA47A7FCC51FA48 /* KYEWebCacheHandlerImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CBB887221383CF01222117B57BB3045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1E0E0B7F79C17AFF109C56DF574D6B07 /* KYEWebNetworkHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C30191CB73C11120597D5FAAC866957 /* KYEWebNetworkHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		206A46F771E855EE63AC0EB0B53786E0 /* Pods-KYEWebViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A98B2744AE0D8C8DC1F3B8C1EB3CCE8 /* Pods-KYEWebViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DA5BEF6D699B9CCD3CE12BD4E238D32 /* KYEWebAjaxHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA19528A2D472B71505AEE3B1424FC2 /* KYEWebAjaxHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3364DE4F4B5814BA6DFDFF4F5299D1E5 /* KYEURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = DC229A38AEEAC2D1BCB23F27689B55CB /* KYEURLProtocol.m */; };
+		38396C3F296C608F42ECDC8CF04F4409 /* KYEWebViewMessageHandlerHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D45D1AE08D49CA2A8811515F9736595 /* KYEWebViewMessageHandlerHelp.m */; };
+		395B59B29B5C0E5F688602DE5E7842E0 /* webView_close_white@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E31EAFB5928A54B86784CCB5CAEC6C29 /* webView_close_white@1x.png */; };
+		3B7F1CB7A427610D8AD2D0DDCBEF2C5E /* webView_back_white@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0E47202BF86ADF8963BE901ED16BA43 /* webView_back_white@1x.png */; };
+		3BF45C9D7DDDB15E52868678B76195D2 /* KYEWebRequestHandleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6046F877E3EAA6E4D7A642AEE8D3FE5E /* KYEWebRequestHandleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D72B6DE159A094365BEEF4AB8B0DD16 /* KYEWebDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E36E0B4D68D48FE7F1D0FA58777D260E /* KYEWebDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DF42C019746E637A82201DBC9B1AD3A /* KYEHookAjax.js in Resources */ = {isa = PBXBuildFile; fileRef = 280C7E610DC443A78C9937EA29654BAB /* KYEHookAjax.js */; };
+		46545C9C3D43F3008945D83E7DC932A2 /* KYEWebCacheHandlerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD4F05DC180A45CB82856694EB5161 /* KYEWebCacheHandlerImpl.m */; };
+		4C083EC9D643FABA3026E3E3A3F00C5A /* Pods-KYEWebViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C4DE17D3362A5ED8157EFE640DF42F /* Pods-KYEWebViewController_Tests-dummy.m */; };
+		4C20046362D09882A216D8B20CC74F5E /* KYEWebViewMessageHandlerHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD0A8E682126AD7F84A6E26D1557AB6 /* KYEWebViewMessageHandlerHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DEAB939739523ABE49DA58D54BE97BA /* KYEWebUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A9CF02C73F448DEF33A9F716AB639621 /* KYEWebUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A3BC56977056328EC33E585D32DF3E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		626DEB60F6C30AE4CFAA0FACB945423F /* NSObject+WKCustomProtocolLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = FFD02E2C93A3A9DE1F2AA86A47413FD3 /* NSObject+WKCustomProtocolLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62DB9C716957892BDC7D4CBAE615C763 /* Pods-KYEWebViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CFB7A53BEA89A0CC0C3E1A1C70E2C51 /* Pods-KYEWebViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B45677766C36D9E4BB2BDBEBA55A456 /* KYEWebRequestHandlerImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 21516C0845D20C3132ED66D4162B8513 /* KYEWebRequestHandlerImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D3ECCD904ACABB597B43D28BFFA0C16 /* KYEWebCacheHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A44B0D65EF7D4A26B838DA812326DFD /* KYEWebCacheHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DCF687C484EA41FE6CF5FC8349F699E /* KYEWebAjaxHandlerImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = BF14BDA56147E4DCFA629AE090DB3DE7 /* KYEWebAjaxHandlerImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		720C16DD28FECE86ADA01A4F64E3C3A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7614D4A75F3EB400A59D873422AE9512 /* KYEWebPrefetchHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 7911ADE371E8422704342B21AF9276F9 /* KYEWebPrefetchHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83280061ECF2A6FABBB3353356712D01 /* WKUserContentController+KYEHookAjax.h in Headers */ = {isa = PBXBuildFile; fileRef = 12787B9A85D682405AB315BB8519D354 /* WKUserContentController+KYEHookAjax.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85DE6620033B448B2FCEEBEA5D8ADFEC /* KYEWebViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3851AF3CAC39BCCF971F70CDCB8441B4 /* KYEWebViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		938E5062FF45B017DE24617EE3782F85 /* KYEWebLoader+Impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A128C0BE4D460CB9770925940E1842 /* KYEWebLoader+Impl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		976DA64F9A5EE1EBB0F5EABC16270D61 /* XMLDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F950A013645752FF4E3A07EC97279273 /* XMLDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99CF0ABFA571DFFB33EB23A49C07B2FA /* KYEURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 09083DCF848CF57E83CA78DE0BF2E6D6 /* KYEURLProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CECA42C9DDB6788559F24311DA8A686 /* Pods-KYEWebViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0344EFD50D20D31234B5AF24AA91CE55 /* Pods-KYEWebViewController_Example-dummy.m */; };
+		9ED8C2213E33DB13B876B7C21159FA2E /* KYEWebRequestHandleManagerImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E944A82C6467DAE5590964DE1F1BCC /* KYEWebRequestHandleManagerImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE0E6503D1561ECE640B37CD64F3DAF9 /* KYEWebNetworkHandlerImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = EDF1E20FAF6D7C278763187DB8F0F47D /* KYEWebNetworkHandlerImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFF288FDA26065565AEA16881F3CA8FF /* KYEWebPrefetchHandlerImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = F19C70F21669453CB2167B6DE297870A /* KYEWebPrefetchHandlerImpl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2A8ADEACBEB2D65DF01271FC682FC18 /* KYEWebLoader+Impl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044C319DDF6C336A60572056F20882C /* KYEWebLoader+Impl.m */; };
+		C23D92B253E984595A07CB6EB6D4A9A9 /* KYEWebViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 21BF6373686C40900811981AF48A3783 /* KYEWebViewController.bundle */; };
+		C3721963AF715FE5D1C09A866891DECC /* KYEWebAjaxHandlerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = F8089D81C5985EB8DD7A129A4083D287 /* KYEWebAjaxHandlerImpl.m */; };
+		C5E9F08DEC8D14E7E143CED7DC765F03 /* KYEWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 82EC971190BBBA6F3FAB35C2B3E8AFCC /* KYEWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9CCCDD7821B4A4134E03552C5E8BE84 /* WKUserContentController+KYEHookAjax.m in Sources */ = {isa = PBXBuildFile; fileRef = C64C740ABFACBA5A06AF9F131DEA71E1 /* WKUserContentController+KYEHookAjax.m */; };
+		CA21AF391B80AAADD98617A7E552C003 /* KYEWebPrefetchHandlerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 67046C4A50469B27B6756FCB02261608 /* KYEWebPrefetchHandlerImpl.m */; };
+		D53479CAB4628809BEA02E8CB7EA171F /* KYEWebDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E47F5F3B3BE32CA0FB97EAE9EDEE27D /* KYEWebDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B6AD973796926DD739AF36C23FB32F /* NSObject+WKCustomProtocolLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 15AEE467C674F39D0BD0FAF4E95F05F3 /* NSObject+WKCustomProtocolLoader.m */; };
+		D96A0B304C2DCF17203F55E7A7624F47 /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9CB29B610832E9F2F08BDBB3EAB231 /* XMLDictionary.m */; };
+		DAE5EF62B2C9B2894E7E80624CC36B01 /* webView_back_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BAC92B5860E9E78D9880D0C7494230E /* webView_back_white@2x.png */; };
+		DFA76DA0F9BDCB591DFE514F7655EAD3 /* KYEWebRequestHandlerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5161EE1F192976C50DB6CD11811B9A54 /* KYEWebRequestHandlerImpl.m */; };
+		E42941DC86423763BD75D36FC5DB6D86 /* webView_close_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 909B9CA18F9062834D355BCC54748B60 /* webView_close_white@2x.png */; };
+		E79FAE14FDA3AF65610806F7C41D5AA0 /* KYEWebNetworkHandlerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = A69F61C9967C196F885BA4F4BF2362DE /* KYEWebNetworkHandlerImpl.m */; };
+		EBB14480F075293901CEB00F7F88EC85 /* KYEWebDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 049F9083124E6B13D72EFBF2C5F33B85 /* KYEWebDataModel.m */; };
+		FCB799E45E9815567DD5D5141E4AAE50 /* KYEWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0976CA91F2FC651B13AE418175A86C /* KYEWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10F8FC1ACC8EB6486917125227F78319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8287480DC50CEDAF17BD0D51E657AAA0;
+			remoteInfo = "KYEWebViewController-KYEWebViewController";
+		};
+		5A8E6BA3FC46C349B2A977D5E8CDB1EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B959D1B622E0DC23F5A1C72A743AC0A;
+			remoteInfo = KYEWebViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0344EFD50D20D31234B5AF24AA91CE55 /* Pods-KYEWebViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYEWebViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		049F9083124E6B13D72EFBF2C5F33B85 /* KYEWebDataModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KYEWebDataModel.m; sourceTree = "<group>"; };
+		09083DCF848CF57E83CA78DE0BF2E6D6 /* KYEURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEURLProtocol.h; sourceTree = "<group>"; };
+		09C4DE17D3362A5ED8157EFE640DF42F /* Pods-KYEWebViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KYEWebViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		10420C835E58C3EF0D987087C46F9363 /* ResourceBundle-KYEWebViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-KYEWebViewController-Info.plist"; sourceTree = "<group>"; };
+		12787B9A85D682405AB315BB8519D354 /* WKUserContentController+KYEHookAjax.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKUserContentController+KYEHookAjax.h"; sourceTree = "<group>"; };
+		14A128C0BE4D460CB9770925940E1842 /* KYEWebLoader+Impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYEWebLoader+Impl.h"; sourceTree = "<group>"; };
+		15AEE467C674F39D0BD0FAF4E95F05F3 /* NSObject+WKCustomProtocolLoader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WKCustomProtocolLoader.m"; sourceTree = "<group>"; };
+		1BD0A8E682126AD7F84A6E26D1557AB6 /* KYEWebViewMessageHandlerHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebViewMessageHandlerHelp.h; sourceTree = "<group>"; };
+		21516C0845D20C3132ED66D4162B8513 /* KYEWebRequestHandlerImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebRequestHandlerImpl.h; sourceTree = "<group>"; };
+		21BF6373686C40900811981AF48A3783 /* KYEWebViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = KYEWebViewController.bundle; path = KYEWebViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		264AB890667FC87C97EB7554A87ADAB6 /* Pods-KYEWebViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYEWebViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		27E5EEF7F1910843236A4C933E138199 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280C7E610DC443A78C9937EA29654BAB /* KYEHookAjax.js */ = {isa = PBXFileReference; includeInIndex = 1; name = KYEHookAjax.js; path = KYEWebViewController/Assets/KYEHookAjax.js; sourceTree = "<group>"; };
+		2A98B2744AE0D8C8DC1F3B8C1EB3CCE8 /* Pods-KYEWebViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYEWebViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+		2BAC92B5860E9E78D9880D0C7494230E /* webView_back_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "webView_back_white@2x.png"; path = "KYEWebViewController/Assets/webView_back_white@2x.png"; sourceTree = "<group>"; };
+		3851AF3CAC39BCCF971F70CDCB8441B4 /* KYEWebViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYEWebViewController-umbrella.h"; sourceTree = "<group>"; };
+		3FDA410B603A282216FD21492A892DB4 /* Pods-KYEWebViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYEWebViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5114CF7869D94C94720EE13E30D41080 /* KYEWebViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYEWebViewController-dummy.m"; sourceTree = "<group>"; };
+		5161EE1F192976C50DB6CD11811B9A54 /* KYEWebRequestHandlerImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KYEWebRequestHandlerImpl.m; sourceTree = "<group>"; };
+		5FAD4F05DC180A45CB82856694EB5161 /* KYEWebCacheHandlerImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KYEWebCacheHandlerImpl.m; sourceTree = "<group>"; };
+		6046F877E3EAA6E4D7A642AEE8D3FE5E /* KYEWebRequestHandleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebRequestHandleManager.h; sourceTree = "<group>"; };
+		6333B2791644AEDC35A83F8AB3CDEC38 /* Pods-KYEWebViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYEWebViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		668717881FF13D8E5AD976841B8EAEE5 /* KYEWebViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYEWebViewController.xcconfig; sourceTree = "<group>"; };
+		67046C4A50469B27B6756FCB02261608 /* KYEWebPrefetchHandlerImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KYEWebPrefetchHandlerImpl.m; sourceTree = "<group>"; };
+		6E47F5F3B3BE32CA0FB97EAE9EDEE27D /* KYEWebDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebDefines.h; sourceTree = "<group>"; };
+		716E876EEBC5D8D1587EC071762B1684 /* Pods-KYEWebViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KYEWebViewController_Example.modulemap"; sourceTree = "<group>"; };
+		71E944A82C6467DAE5590964DE1F1BCC /* KYEWebRequestHandleManagerImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebRequestHandleManagerImpl.h; sourceTree = "<group>"; };
+		72B98A258C5543EBF33B242A77BAF2BB /* Pods-KYEWebViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYEWebViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		74183615461A390166D016F854C3808C /* Pods-KYEWebViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYEWebViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7911ADE371E8422704342B21AF9276F9 /* KYEWebPrefetchHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebPrefetchHandler.h; sourceTree = "<group>"; };
+		7C6D765407A074903D66B12491097C9F /* Pods-KYEWebViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYEWebViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7D45D1AE08D49CA2A8811515F9736595 /* KYEWebViewMessageHandlerHelp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KYEWebViewMessageHandlerHelp.m; sourceTree = "<group>"; };
+		7D53A5B0CF9344510659A30C77DBC837 /* KYEWebUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KYEWebUtils.m; sourceTree = "<group>"; };
+		82EC971190BBBA6F3FAB35C2B3E8AFCC /* KYEWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KYEWebViewController.h; path = KYEWebViewController/Classes/KYEWebViewController.h; sourceTree = "<group>"; };
+		8F6595E906965E5BB6586A6DFC7BC930 /* Pods-KYEWebViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYEWebViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9044C319DDF6C336A60572056F20882C /* KYEWebLoader+Impl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYEWebLoader+Impl.m"; sourceTree = "<group>"; };
+		909B9CA18F9062834D355BCC54748B60 /* webView_close_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "webView_close_white@2x.png"; path = "KYEWebViewController/Assets/webView_close_white@2x.png"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95B449CAA4E2959DA2F2CBEA2E064644 /* Pods-KYEWebViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYEWebViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		9907ED8DD616A3B8ECA88C60AA72E3B1 /* Pods_KYEWebViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KYEWebViewController_Tests.framework; path = "Pods-KYEWebViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		99DBC92CDF15E420F452D82480E1EFC6 /* KYEWebViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KYEWebViewController.modulemap; sourceTree = "<group>"; };
+		9A44B0D65EF7D4A26B838DA812326DFD /* KYEWebCacheHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebCacheHandler.h; sourceTree = "<group>"; };
+		9C30191CB73C11120597D5FAAC866957 /* KYEWebNetworkHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebNetworkHandler.h; sourceTree = "<group>"; };
+		9CFB7A53BEA89A0CC0C3E1A1C70E2C51 /* Pods-KYEWebViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KYEWebViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9F340A83EE06C978F0B1832E50F46753 /* Pods-KYEWebViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KYEWebViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		A3DA9FA189D85807C3754264462A5BAD /* KYEWebRequestHandleManagerImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KYEWebRequestHandleManagerImpl.m; sourceTree = "<group>"; };
+		A69F61C9967C196F885BA4F4BF2362DE /* KYEWebNetworkHandlerImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KYEWebNetworkHandlerImpl.m; sourceTree = "<group>"; };
+		A7046826AA7CBCF5AAA47A7FCC51FA48 /* KYEWebCacheHandlerImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebCacheHandlerImpl.h; sourceTree = "<group>"; };
+		A9CF02C73F448DEF33A9F716AB639621 /* KYEWebUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebUtils.h; sourceTree = "<group>"; };
+		AD825D57B1E21C7D4FB0070ADE762D41 /* KYEWebViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYEWebViewController-prefix.pch"; sourceTree = "<group>"; };
+		B241A10D1C316B2496E06E6AA4E1C7CC /* Pods-KYEWebViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KYEWebViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7473892E653072ED0E53DF381D75B01 /* KYEWebViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYEWebViewController.framework; path = KYEWebViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0976CA91F2FC651B13AE418175A86C /* KYEWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KYEWebViewController.m; path = KYEWebViewController/Classes/KYEWebViewController.m; sourceTree = "<group>"; };
+		BE328D2680164E842F378B61EAAE8BD2 /* Pods_KYEWebViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KYEWebViewController_Example.framework; path = "Pods-KYEWebViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF14BDA56147E4DCFA629AE090DB3DE7 /* KYEWebAjaxHandlerImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebAjaxHandlerImpl.h; sourceTree = "<group>"; };
+		C64C740ABFACBA5A06AF9F131DEA71E1 /* WKUserContentController+KYEHookAjax.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKUserContentController+KYEHookAjax.m"; sourceTree = "<group>"; };
+		CC7030A6A2747FC5D0A714B47063522A /* Pods-KYEWebViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KYEWebViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC9B076C800D6015736204D97996737C /* Pods-KYEWebViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KYEWebViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		CE2D9C55985ACE24DC5231ECA99B1CBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E47202BF86ADF8963BE901ED16BA43 /* webView_back_white@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "webView_back_white@1x.png"; path = "KYEWebViewController/Assets/webView_back_white@1x.png"; sourceTree = "<group>"; };
+		D875DF9693434DA9A746D0EF3A032942 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC229A38AEEAC2D1BCB23F27689B55CB /* KYEURLProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KYEURLProtocol.m; sourceTree = "<group>"; };
+		DD8360F10A95E517306A41F6FD5189BD /* KYEWebOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebOperation.h; sourceTree = "<group>"; };
+		E31EAFB5928A54B86784CCB5CAEC6C29 /* webView_close_white@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "webView_close_white@1x.png"; path = "KYEWebViewController/Assets/webView_close_white@1x.png"; sourceTree = "<group>"; };
+		E36E0B4D68D48FE7F1D0FA58777D260E /* KYEWebDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebDataModel.h; sourceTree = "<group>"; };
+		ED9CB29B610832E9F2F08BDBB3EAB231 /* XMLDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		EDA19528A2D472B71505AEE3B1424FC2 /* KYEWebAjaxHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebAjaxHandler.h; sourceTree = "<group>"; };
+		EDF1E20FAF6D7C278763187DB8F0F47D /* KYEWebNetworkHandlerImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebNetworkHandlerImpl.h; sourceTree = "<group>"; };
+		EFBB2C4653BDD4F2E6F4E996A0F25501 /* Pods-KYEWebViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KYEWebViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F19C70F21669453CB2167B6DE297870A /* KYEWebPrefetchHandlerImpl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KYEWebPrefetchHandlerImpl.h; sourceTree = "<group>"; };
+		F8089D81C5985EB8DD7A129A4083D287 /* KYEWebAjaxHandlerImpl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KYEWebAjaxHandlerImpl.m; sourceTree = "<group>"; };
+		F950A013645752FF4E3A07EC97279273 /* XMLDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		FFD02E2C93A3A9DE1F2AA86A47413FD3 /* NSObject+WKCustomProtocolLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+WKCustomProtocolLoader.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77A76E6470338F8FDA9D390191668BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A3BC56977056328EC33E585D32DF3E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EAF3B2AF62ECAEF77A3B4948786BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720C16DD28FECE86ADA01A4F64E3C3A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A31534C9C7BA9261F163B8467D331B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CBB887221383CF01222117B57BB3045 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBFC6ABCF0932F74BEFF0F52EA37BA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160A78D7CAAB694EE8A93953DA825A6B /* Pods-KYEWebViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D9C55985ACE24DC5231ECA99B1CBD /* Info.plist */,
+				CC9B076C800D6015736204D97996737C /* Pods-KYEWebViewController_Tests.modulemap */,
+				74183615461A390166D016F854C3808C /* Pods-KYEWebViewController_Tests-acknowledgements.markdown */,
+				3FDA410B603A282216FD21492A892DB4 /* Pods-KYEWebViewController_Tests-acknowledgements.plist */,
+				09C4DE17D3362A5ED8157EFE640DF42F /* Pods-KYEWebViewController_Tests-dummy.m */,
+				7C6D765407A074903D66B12491097C9F /* Pods-KYEWebViewController_Tests-frameworks.sh */,
+				95B449CAA4E2959DA2F2CBEA2E064644 /* Pods-KYEWebViewController_Tests-resources.sh */,
+				9CFB7A53BEA89A0CC0C3E1A1C70E2C51 /* Pods-KYEWebViewController_Tests-umbrella.h */,
+				6333B2791644AEDC35A83F8AB3CDEC38 /* Pods-KYEWebViewController_Tests.debug.xcconfig */,
+				72B98A258C5543EBF33B242A77BAF2BB /* Pods-KYEWebViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-KYEWebViewController_Tests";
+			path = "Target Support Files/Pods-KYEWebViewController_Tests";
+			sourceTree = "<group>";
+		};
+		1FAB2B37DDFA9BE820F67A16979F4E7A /* HookAjax */ = {
+			isa = PBXGroup;
+			children = (
+				BF14BDA56147E4DCFA629AE090DB3DE7 /* KYEWebAjaxHandlerImpl.h */,
+				F8089D81C5985EB8DD7A129A4083D287 /* KYEWebAjaxHandlerImpl.m */,
+				12787B9A85D682405AB315BB8519D354 /* WKUserContentController+KYEHookAjax.h */,
+				C64C740ABFACBA5A06AF9F131DEA71E1 /* WKUserContentController+KYEHookAjax.m */,
+			);
+			name = HookAjax;
+			path = KYEWebViewController/Classes/HookAjax;
+			sourceTree = "<group>";
+		};
+		21020DB8C712EF20D32D11A02CD53B4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21BF6373686C40900811981AF48A3783 /* KYEWebViewController.bundle */,
+				B7473892E653072ED0E53DF381D75B01 /* KYEWebViewController.framework */,
+				BE328D2680164E842F378B61EAAE8BD2 /* Pods_KYEWebViewController_Example.framework */,
+				9907ED8DD616A3B8ECA88C60AA72E3B1 /* Pods_KYEWebViewController_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23CEBB9748939F421CCBB691348B029B /* URLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				09083DCF848CF57E83CA78DE0BF2E6D6 /* KYEURLProtocol.h */,
+				DC229A38AEEAC2D1BCB23F27689B55CB /* KYEURLProtocol.m */,
+				FFD02E2C93A3A9DE1F2AA86A47413FD3 /* NSObject+WKCustomProtocolLoader.h */,
+				15AEE467C674F39D0BD0FAF4E95F05F3 /* NSObject+WKCustomProtocolLoader.m */,
+			);
+			name = URLProtocol;
+			path = KYEWebViewController/Classes/URLProtocol;
+			sourceTree = "<group>";
+		};
+		26ABE81FA13D395F26C6EBB3A8C14D44 /* Pods-KYEWebViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D875DF9693434DA9A746D0EF3A032942 /* Info.plist */,
+				716E876EEBC5D8D1587EC071762B1684 /* Pods-KYEWebViewController_Example.modulemap */,
+				CC7030A6A2747FC5D0A714B47063522A /* Pods-KYEWebViewController_Example-acknowledgements.markdown */,
+				B241A10D1C316B2496E06E6AA4E1C7CC /* Pods-KYEWebViewController_Example-acknowledgements.plist */,
+				0344EFD50D20D31234B5AF24AA91CE55 /* Pods-KYEWebViewController_Example-dummy.m */,
+				8F6595E906965E5BB6586A6DFC7BC930 /* Pods-KYEWebViewController_Example-frameworks.sh */,
+				9F340A83EE06C978F0B1832E50F46753 /* Pods-KYEWebViewController_Example-resources.sh */,
+				2A98B2744AE0D8C8DC1F3B8C1EB3CCE8 /* Pods-KYEWebViewController_Example-umbrella.h */,
+				264AB890667FC87C97EB7554A87ADAB6 /* Pods-KYEWebViewController_Example.debug.xcconfig */,
+				EFBB2C4653BDD4F2E6F4E996A0F25501 /* Pods-KYEWebViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-KYEWebViewController_Example";
+			path = "Target Support Files/Pods-KYEWebViewController_Example";
+			sourceTree = "<group>";
+		};
+		30EAA781F998AD75C4DE1B7F00825177 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				6E47F5F3B3BE32CA0FB97EAE9EDEE27D /* KYEWebDefines.h */,
+				DD8360F10A95E517306A41F6FD5189BD /* KYEWebOperation.h */,
+			);
+			name = Header;
+			path = KYEWebViewController/Classes/Header;
+			sourceTree = "<group>";
+		};
+		4EB0F0F010BBCB19826E4801C4818A7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				280C7E610DC443A78C9937EA29654BAB /* KYEHookAjax.js */,
+				D0E47202BF86ADF8963BE901ED16BA43 /* webView_back_white@1x.png */,
+				2BAC92B5860E9E78D9880D0C7494230E /* webView_back_white@2x.png */,
+				E31EAFB5928A54B86784CCB5CAEC6C29 /* webView_close_white@1x.png */,
+				909B9CA18F9062834D355BCC54748B60 /* webView_close_white@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		61E133DDB44174700C83755986035DC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E36E0B4D68D48FE7F1D0FA58777D260E /* KYEWebDataModel.h */,
+				049F9083124E6B13D72EFBF2C5F33B85 /* KYEWebDataModel.m */,
+			);
+			name = Model;
+			path = KYEWebViewController/Classes/Model;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A726B4B6CF143AE018A67EA7A28DF1FC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				21020DB8C712EF20D32D11A02CD53B4A /* Products */,
+				FC9C866D0902336ADA9ED526F0C26DD0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86112B819CF65353149198E52EB028CD /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				EDA19528A2D472B71505AEE3B1424FC2 /* KYEWebAjaxHandler.h */,
+				9A44B0D65EF7D4A26B838DA812326DFD /* KYEWebCacheHandler.h */,
+				A7046826AA7CBCF5AAA47A7FCC51FA48 /* KYEWebCacheHandlerImpl.h */,
+				5FAD4F05DC180A45CB82856694EB5161 /* KYEWebCacheHandlerImpl.m */,
+				9C30191CB73C11120597D5FAAC866957 /* KYEWebNetworkHandler.h */,
+				EDF1E20FAF6D7C278763187DB8F0F47D /* KYEWebNetworkHandlerImpl.h */,
+				A69F61C9967C196F885BA4F4BF2362DE /* KYEWebNetworkHandlerImpl.m */,
+				7911ADE371E8422704342B21AF9276F9 /* KYEWebPrefetchHandler.h */,
+				F19C70F21669453CB2167B6DE297870A /* KYEWebPrefetchHandlerImpl.h */,
+				67046C4A50469B27B6756FCB02261608 /* KYEWebPrefetchHandlerImpl.m */,
+				6046F877E3EAA6E4D7A642AEE8D3FE5E /* KYEWebRequestHandleManager.h */,
+				71E944A82C6467DAE5590964DE1F1BCC /* KYEWebRequestHandleManagerImpl.h */,
+				A3DA9FA189D85807C3754264462A5BAD /* KYEWebRequestHandleManagerImpl.m */,
+				21516C0845D20C3132ED66D4162B8513 /* KYEWebRequestHandlerImpl.h */,
+				5161EE1F192976C50DB6CD11811B9A54 /* KYEWebRequestHandlerImpl.m */,
+			);
+			name = Handler;
+			path = KYEWebViewController/Classes/Handler;
+			sourceTree = "<group>";
+		};
+		A726B4B6CF143AE018A67EA7A28DF1FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF12048466921457722E67E709862A79 /* KYEWebViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC2C2F23664920DC612D28A3DFED211E /* XMLDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F950A013645752FF4E3A07EC97279273 /* XMLDictionary.h */,
+				ED9CB29B610832E9F2F08BDBB3EAB231 /* XMLDictionary.m */,
+			);
+			name = XMLDictionary;
+			path = KYEWebViewController/Classes/XMLDictionary;
+			sourceTree = "<group>";
+		};
+		CF12048466921457722E67E709862A79 /* KYEWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				82EC971190BBBA6F3FAB35C2B3E8AFCC /* KYEWebViewController.h */,
+				BE0976CA91F2FC651B13AE418175A86C /* KYEWebViewController.m */,
+				86112B819CF65353149198E52EB028CD /* Handler */,
+				30EAA781F998AD75C4DE1B7F00825177 /* Header */,
+				1FAB2B37DDFA9BE820F67A16979F4E7A /* HookAjax */,
+				E4CAC33B105890BF7BB4491B168FBF5E /* Loader */,
+				61E133DDB44174700C83755986035DC9 /* Model */,
+				4EB0F0F010BBCB19826E4801C4818A7D /* Resources */,
+				E0402CD29397B336D11ED08219238A15 /* Support Files */,
+				23CEBB9748939F421CCBB691348B029B /* URLProtocol */,
+				FB55AEE61F230601C36CC70D5B67C045 /* Utils */,
+				CC2C2F23664920DC612D28A3DFED211E /* XMLDictionary */,
+			);
+			name = KYEWebViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E0402CD29397B336D11ED08219238A15 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27E5EEF7F1910843236A4C933E138199 /* Info.plist */,
+				99DBC92CDF15E420F452D82480E1EFC6 /* KYEWebViewController.modulemap */,
+				668717881FF13D8E5AD976841B8EAEE5 /* KYEWebViewController.xcconfig */,
+				5114CF7869D94C94720EE13E30D41080 /* KYEWebViewController-dummy.m */,
+				AD825D57B1E21C7D4FB0070ADE762D41 /* KYEWebViewController-prefix.pch */,
+				3851AF3CAC39BCCF971F70CDCB8441B4 /* KYEWebViewController-umbrella.h */,
+				10420C835E58C3EF0D987087C46F9363 /* ResourceBundle-KYEWebViewController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KYEWebViewController";
+			sourceTree = "<group>";
+		};
+		E4CAC33B105890BF7BB4491B168FBF5E /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				14A128C0BE4D460CB9770925940E1842 /* KYEWebLoader+Impl.h */,
+				9044C319DDF6C336A60572056F20882C /* KYEWebLoader+Impl.m */,
+			);
+			name = Loader;
+			path = KYEWebViewController/Classes/Loader;
+			sourceTree = "<group>";
+		};
+		FB55AEE61F230601C36CC70D5B67C045 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A9CF02C73F448DEF33A9F716AB639621 /* KYEWebUtils.h */,
+				7D53A5B0CF9344510659A30C77DBC837 /* KYEWebUtils.m */,
+				1BD0A8E682126AD7F84A6E26D1557AB6 /* KYEWebViewMessageHandlerHelp.h */,
+				7D45D1AE08D49CA2A8811515F9736595 /* KYEWebViewMessageHandlerHelp.m */,
+			);
+			name = Utils;
+			path = KYEWebViewController/Classes/Utils;
+			sourceTree = "<group>";
+		};
+		FC9C866D0902336ADA9ED526F0C26DD0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26ABE81FA13D395F26C6EBB3A8C14D44 /* Pods-KYEWebViewController_Example */,
+				160A78D7CAAB694EE8A93953DA825A6B /* Pods-KYEWebViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0ECCC7990BDACBB7DFB92307A45E6127 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206A46F771E855EE63AC0EB0B53786E0 /* Pods-KYEWebViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A5311BE9FC99560B759F0B9A83F167 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DB9C716957892BDC7D4CBAE615C763 /* Pods-KYEWebViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E142AD882842701710BB21D41AC26FB7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CF0ABFA571DFFB33EB23A49C07B2FA /* KYEURLProtocol.h in Headers */,
+				2DA5BEF6D699B9CCD3CE12BD4E238D32 /* KYEWebAjaxHandler.h in Headers */,
+				6DCF687C484EA41FE6CF5FC8349F699E /* KYEWebAjaxHandlerImpl.h in Headers */,
+				6D3ECCD904ACABB597B43D28BFFA0C16 /* KYEWebCacheHandler.h in Headers */,
+				0E8001B0829E695943B04FEA9F214A48 /* KYEWebCacheHandlerImpl.h in Headers */,
+				3D72B6DE159A094365BEEF4AB8B0DD16 /* KYEWebDataModel.h in Headers */,
+				D53479CAB4628809BEA02E8CB7EA171F /* KYEWebDefines.h in Headers */,
+				938E5062FF45B017DE24617EE3782F85 /* KYEWebLoader+Impl.h in Headers */,
+				1E0E0B7F79C17AFF109C56DF574D6B07 /* KYEWebNetworkHandler.h in Headers */,
+				AE0E6503D1561ECE640B37CD64F3DAF9 /* KYEWebNetworkHandlerImpl.h in Headers */,
+				01D09228E9F4768818A4B3B60BF0C057 /* KYEWebOperation.h in Headers */,
+				7614D4A75F3EB400A59D873422AE9512 /* KYEWebPrefetchHandler.h in Headers */,
+				AFF288FDA26065565AEA16881F3CA8FF /* KYEWebPrefetchHandlerImpl.h in Headers */,
+				3BF45C9D7DDDB15E52868678B76195D2 /* KYEWebRequestHandleManager.h in Headers */,
+				9ED8C2213E33DB13B876B7C21159FA2E /* KYEWebRequestHandleManagerImpl.h in Headers */,
+				6B45677766C36D9E4BB2BDBEBA55A456 /* KYEWebRequestHandlerImpl.h in Headers */,
+				4DEAB939739523ABE49DA58D54BE97BA /* KYEWebUtils.h in Headers */,
+				85DE6620033B448B2FCEEBEA5D8ADFEC /* KYEWebViewController-umbrella.h in Headers */,
+				C5E9F08DEC8D14E7E143CED7DC765F03 /* KYEWebViewController.h in Headers */,
+				4C20046362D09882A216D8B20CC74F5E /* KYEWebViewMessageHandlerHelp.h in Headers */,
+				626DEB60F6C30AE4CFAA0FACB945423F /* NSObject+WKCustomProtocolLoader.h in Headers */,
+				83280061ECF2A6FABBB3353356712D01 /* WKUserContentController+KYEHookAjax.h in Headers */,
+				976DA64F9A5EE1EBB0F5EABC16270D61 /* XMLDictionary.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		34DBE88A8AF0466F560466255A056B38 /* Pods-KYEWebViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10EEA65EFAC293C07CEEC15DFE517C06 /* Build configuration list for PBXNativeTarget "Pods-KYEWebViewController_Tests" */;
+			buildPhases = (
+				9796C6E259753D6ADD5BC5A8CE2F7017 /* Sources */,
+				F4A31534C9C7BA9261F163B8467D331B /* Frameworks */,
+				61A5311BE9FC99560B759F0B9A83F167 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KYEWebViewController_Tests";
+			productName = "Pods-KYEWebViewController_Tests";
+			productReference = 9907ED8DD616A3B8ECA88C60AA72E3B1 /* Pods_KYEWebViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D37DE21645D22538ED4627D25481B1E /* Pods-KYEWebViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF573DC8E3F872A99D15772FB5997152 /* Build configuration list for PBXNativeTarget "Pods-KYEWebViewController_Example" */;
+			buildPhases = (
+				463A53BBA5C53BE7518A243B394BC6A8 /* Sources */,
+				E1EAF3B2AF62ECAEF77A3B4948786BB3 /* Frameworks */,
+				0ECCC7990BDACBB7DFB92307A45E6127 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6B79812A24893B72B1A789B973E15B /* PBXTargetDependency */,
+			);
+			name = "Pods-KYEWebViewController_Example";
+			productName = "Pods-KYEWebViewController_Example";
+			productReference = BE328D2680164E842F378B61EAAE8BD2 /* Pods_KYEWebViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B959D1B622E0DC23F5A1C72A743AC0A /* KYEWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC525437E6A0EAB85A3079B46C5EF89C /* Build configuration list for PBXNativeTarget "KYEWebViewController" */;
+			buildPhases = (
+				EDBC204804314DDA0E02ACE1BE5E8797 /* Sources */,
+				77A76E6470338F8FDA9D390191668BF7 /* Frameworks */,
+				6DFD8D542844C6E9CB8965485B5B0E9E /* Resources */,
+				E142AD882842701710BB21D41AC26FB7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06F7B17BEF734588C20A40A33EE9AF08 /* PBXTargetDependency */,
+			);
+			name = KYEWebViewController;
+			productName = KYEWebViewController;
+			productReference = B7473892E653072ED0E53DF381D75B01 /* KYEWebViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8287480DC50CEDAF17BD0D51E657AAA0 /* KYEWebViewController-KYEWebViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11AE6A07522D4AE94E4B157D93CB4FF4 /* Build configuration list for PBXNativeTarget "KYEWebViewController-KYEWebViewController" */;
+			buildPhases = (
+				C4665B388DE2B43D626B38DAA63D0FAB /* Sources */,
+				FBFC6ABCF0932F74BEFF0F52EA37BA91 /* Frameworks */,
+				9A09F2A66F6524BF361340E03232ACDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KYEWebViewController-KYEWebViewController";
+			productName = "KYEWebViewController-KYEWebViewController";
+			productReference = 21BF6373686C40900811981AF48A3783 /* KYEWebViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 21020DB8C712EF20D32D11A02CD53B4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B959D1B622E0DC23F5A1C72A743AC0A /* KYEWebViewController */,
+				8287480DC50CEDAF17BD0D51E657AAA0 /* KYEWebViewController-KYEWebViewController */,
+				4D37DE21645D22538ED4627D25481B1E /* Pods-KYEWebViewController_Example */,
+				34DBE88A8AF0466F560466255A056B38 /* Pods-KYEWebViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DFD8D542844C6E9CB8965485B5B0E9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23D92B253E984595A07CB6EB6D4A9A9 /* KYEWebViewController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A09F2A66F6524BF361340E03232ACDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF42C019746E637A82201DBC9B1AD3A /* KYEHookAjax.js in Resources */,
+				3B7F1CB7A427610D8AD2D0DDCBEF2C5E /* webView_back_white@1x.png in Resources */,
+				DAE5EF62B2C9B2894E7E80624CC36B01 /* webView_back_white@2x.png in Resources */,
+				395B59B29B5C0E5F688602DE5E7842E0 /* webView_close_white@1x.png in Resources */,
+				E42941DC86423763BD75D36FC5DB6D86 /* webView_close_white@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		463A53BBA5C53BE7518A243B394BC6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CECA42C9DDB6788559F24311DA8A686 /* Pods-KYEWebViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9796C6E259753D6ADD5BC5A8CE2F7017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C083EC9D643FABA3026E3E3A3F00C5A /* Pods-KYEWebViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4665B388DE2B43D626B38DAA63D0FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDBC204804314DDA0E02ACE1BE5E8797 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3364DE4F4B5814BA6DFDFF4F5299D1E5 /* KYEURLProtocol.m in Sources */,
+				C3721963AF715FE5D1C09A866891DECC /* KYEWebAjaxHandlerImpl.m in Sources */,
+				46545C9C3D43F3008945D83E7DC932A2 /* KYEWebCacheHandlerImpl.m in Sources */,
+				EBB14480F075293901CEB00F7F88EC85 /* KYEWebDataModel.m in Sources */,
+				B2A8ADEACBEB2D65DF01271FC682FC18 /* KYEWebLoader+Impl.m in Sources */,
+				E79FAE14FDA3AF65610806F7C41D5AA0 /* KYEWebNetworkHandlerImpl.m in Sources */,
+				CA21AF391B80AAADD98617A7E552C003 /* KYEWebPrefetchHandlerImpl.m in Sources */,
+				0A30CAF347611768B3017CD20AF1BF7B /* KYEWebRequestHandleManagerImpl.m in Sources */,
+				DFA76DA0F9BDCB591DFE514F7655EAD3 /* KYEWebRequestHandlerImpl.m in Sources */,
+				0817EBED9DE58087B796F2CA189F3196 /* KYEWebUtils.m in Sources */,
+				062C7FCB3761EA54B76D54B888C9D63A /* KYEWebViewController-dummy.m in Sources */,
+				FCB799E45E9815567DD5D5141E4AAE50 /* KYEWebViewController.m in Sources */,
+				38396C3F296C608F42ECDC8CF04F4409 /* KYEWebViewMessageHandlerHelp.m in Sources */,
+				D8B6AD973796926DD739AF36C23FB32F /* NSObject+WKCustomProtocolLoader.m in Sources */,
+				C9CCCDD7821B4A4134E03552C5E8BE84 /* WKUserContentController+KYEHookAjax.m in Sources */,
+				D96A0B304C2DCF17203F55E7A7624F47 /* XMLDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06F7B17BEF734588C20A40A33EE9AF08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "KYEWebViewController-KYEWebViewController";
+			target = 8287480DC50CEDAF17BD0D51E657AAA0 /* KYEWebViewController-KYEWebViewController */;
+			targetProxy = 10F8FC1ACC8EB6486917125227F78319 /* PBXContainerItemProxy */;
+		};
+		CD6B79812A24893B72B1A789B973E15B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYEWebViewController;
+			target = 5B959D1B622E0DC23F5A1C72A743AC0A /* KYEWebViewController */;
+			targetProxy = 5A8E6BA3FC46C349B2A977D5E8CDB1EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		054ABF391BF2138372EE1BA1854ED344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668717881FF13D8E5AD976841B8EAEE5 /* KYEWebViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KYEWebViewController";
+				INFOPLIST_FILE = "Target Support Files/KYEWebViewController/ResourceBundle-KYEWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = KYEWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1A0AA0E4E74365F55FF8F192863CD198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668717881FF13D8E5AD976841B8EAEE5 /* KYEWebViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYEWebViewController/KYEWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYEWebViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYEWebViewController/KYEWebViewController.modulemap";
+				PRODUCT_NAME = KYEWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		323B386AF37E1A9FC0353ADE1A2DF650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBB2C4653BDD4F2E6F4E996A0F25501 /* Pods-KYEWebViewController_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYEWebViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYEWebViewController_Example/Pods-KYEWebViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KYEWebViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		532EDFFEEFDB9B1301A28D17B6C43B53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668717881FF13D8E5AD976841B8EAEE5 /* KYEWebViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYEWebViewController/KYEWebViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYEWebViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYEWebViewController/KYEWebViewController.modulemap";
+				PRODUCT_NAME = KYEWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7578C87E58B6B15745EEC33AE2504228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6333B2791644AEDC35A83F8AB3CDEC38 /* Pods-KYEWebViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYEWebViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYEWebViewController_Tests/Pods-KYEWebViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KYEWebViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91AFAAB1E42F77B290AED55A5660A3DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B98A258C5543EBF33B242A77BAF2BB /* Pods-KYEWebViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYEWebViewController_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYEWebViewController_Tests/Pods-KYEWebViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KYEWebViewController_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		938876B3D8CEC925A609C86B863694DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 668717881FF13D8E5AD976841B8EAEE5 /* KYEWebViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/KYEWebViewController";
+				INFOPLIST_FILE = "Target Support Files/KYEWebViewController/ResourceBundle-KYEWebViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = KYEWebViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9D736C63785B1549DA93584F9072082B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264AB890667FC87C97EB7554A87ADAB6 /* Pods-KYEWebViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KYEWebViewController_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KYEWebViewController_Example/Pods-KYEWebViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KYEWebViewController_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10EEA65EFAC293C07CEEC15DFE517C06 /* Build configuration list for PBXNativeTarget "Pods-KYEWebViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7578C87E58B6B15745EEC33AE2504228 /* Debug */,
+				91AFAAB1E42F77B290AED55A5660A3DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11AE6A07522D4AE94E4B157D93CB4FF4 /* Build configuration list for PBXNativeTarget "KYEWebViewController-KYEWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				054ABF391BF2138372EE1BA1854ED344 /* Debug */,
+				938876B3D8CEC925A609C86B863694DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC525437E6A0EAB85A3079B46C5EF89C /* Build configuration list for PBXNativeTarget "KYEWebViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A0AA0E4E74365F55FF8F192863CD198 /* Debug */,
+				532EDFFEEFDB9B1301A28D17B6C43B53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF573DC8E3F872A99D15772FB5997152 /* Build configuration list for PBXNativeTarget "Pods-KYEWebViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D736C63785B1549DA93584F9072082B /* Debug */,
+				323B386AF37E1A9FC0353ADE1A2DF650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

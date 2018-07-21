@@ -1,0 +1,143 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/ablo/KYEWebViewController/Example/build/Debug-iphoneos/KYEWebViewController/KYEWebViewController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "KYEURLProtocol.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/URLProtocol/KYEURLProtocol.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebAjaxHandler.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Handler/KYEWebAjaxHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebAjaxHandlerImpl.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/HookAjax/KYEWebAjaxHandlerImpl.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebCacheHandler.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Handler/KYEWebCacheHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebCacheHandlerImpl.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Handler/KYEWebCacheHandlerImpl.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebDataModel.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Model/KYEWebDataModel.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebDefines.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Header/KYEWebDefines.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebLoader+Impl.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Loader/KYEWebLoader+Impl.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebNetworkHandler.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Handler/KYEWebNetworkHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebNetworkHandlerImpl.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Handler/KYEWebNetworkHandlerImpl.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebOperation.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Header/KYEWebOperation.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebPrefetchHandler.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Handler/KYEWebPrefetchHandler.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebPrefetchHandlerImpl.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Handler/KYEWebPrefetchHandlerImpl.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebRequestHandleManager.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Handler/KYEWebRequestHandleManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebRequestHandleManagerImpl.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Handler/KYEWebRequestHandleManagerImpl.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebRequestHandlerImpl.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Handler/KYEWebRequestHandlerImpl.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebUtils.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Utils/KYEWebUtils.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebViewController-Swift.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/Example/build/Debug-iphoneos/KYEWebViewController/KYEWebViewController.framework/Headers/KYEWebViewController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebViewController-umbrella.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/Example/Pods/Target Support Files/KYEWebViewController/KYEWebViewController-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebViewController.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/KYEWebViewController.h"
+        },
+        {
+          'type': 'file',
+          'name': "KYEWebViewMessageHandlerHelp.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/Utils/KYEWebViewMessageHandlerHelp.h"
+        },
+        {
+          'type': 'file',
+          'name': "NSObject+WKCustomProtocolLoader.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/URLProtocol/NSObject+WKCustomProtocolLoader.h"
+        },
+        {
+          'type': 'file',
+          'name': "WKUserContentController+KYEHookAjax.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/HookAjax/WKUserContentController+KYEHookAjax.h"
+        },
+        {
+          'type': 'file',
+          'name': "XMLDictionary.h",
+          'external-contents': "/Users/ablo/KYEWebViewController/KYEWebViewController/Classes/XMLDictionary/XMLDictionary.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/ablo/KYEWebViewController/Example/build/Debug-iphoneos/KYEWebViewController/KYEWebViewController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/ablo/KYEWebViewController/Example/build/Pods.build/Debug-iphoneos/KYEWebViewController.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KYEWebViewController_Example' do
+  pod 'KYEWebViewController', :path => '../'
+
+  target 'KYEWebViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

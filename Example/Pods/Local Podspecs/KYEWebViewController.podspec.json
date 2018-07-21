@@ -1,0 +1,28 @@
+{
+  "name": "KYEWebViewController",
+  "version": "0.2.0",
+  "summary": "KYEWebViewController.",
+  "description": "封装WKWebView，支持缓存和预加载，解决WKWebview丢失cookie以及ajax的post请求丢失body的问题.",
+  "homepage": "http://172.20.8.45/iOS-KYE",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zouzhipeng": "mrleozou@gmail.com"
+  },
+  "source": {
+    "git": "http://172.20.8.45/iOS-KYE/KYEWebViewController.git",
+    "tag": "0.2.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KYEWebViewController/Classes/**/*",
+  "resource_bundles": {
+    "KYEWebViewController": [
+      "KYEWebViewController/Assets/*.png",
+      "KYEWebViewController/Assets/*.js"
+    ]
+  }
+}

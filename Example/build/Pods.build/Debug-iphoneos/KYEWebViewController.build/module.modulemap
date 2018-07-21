@@ -1,0 +1,6 @@
+framework module KYEWebViewController {
+  umbrella header "KYEWebViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
